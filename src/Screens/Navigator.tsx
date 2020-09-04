@@ -129,7 +129,7 @@ const MainTabs = () => {
       />
       <BottomTab.Screen
         name="Upload"
-        component={Upload}
+        component={UploadTab}
         options={{
           tabBarLabel: 'Third',
           tabBarIcon: ({color, focused}) => (
